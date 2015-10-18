@@ -10,10 +10,11 @@ body {
 #slogan{
 	font-size: 20px;
 	font-style: italic;
+	padding: 5px
 }
 
 a {
-	color: #000000
+	color: #ffffff
 }
 
 p {
@@ -22,4 +23,12 @@ p {
 
 h1 {
 	font-size: 42px
+}
+
+nav {
+	font-size: 12px
+}
+
+header {
+	text-align: center
 }
