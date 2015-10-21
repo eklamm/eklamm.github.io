@@ -1,9 +1,11 @@
 body {
-	background: url(https://github.com/eklamm/eklamm.github.io/blob/master/unit_3/images/pup1.jpg?raw=true);
+	background: url(...images/pup1.jpg?raw=true);
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: Arial;
 	color: #ffffff
+	height: 100%;
+	position: relative;
 
 }
 
@@ -31,4 +33,9 @@ nav {
 
 header {
 	text-align: center
+}
+
+footer {
+	position: absolute;
+	bottim: 20px;
 }
