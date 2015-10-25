@@ -1,6 +1,6 @@
 body {
 
-	background: url(../images/pup3.jpg);
+	background: url(../images/pup2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: Arial;
@@ -30,12 +30,12 @@ a {
 
 p {
 	font-size: 14px;
-	color: #444444;
+	color: #434343;
 }
 
 h1 {
 	font-size: 42px;
-	color: #ffffff;
+	color: #11E9D9;
 	padding-top: 20px;
 	padding-right: 45px;
 	padding-left: 45px;
@@ -45,7 +45,7 @@ h1 {
 
 h3 {
 	font-size: 24px;
-	color: #248F8F
+	color: #FF6600
 }
 
 footer {
@@ -54,12 +54,13 @@ footer {
 	bottom: 0px;
 	height: 60px;
 	text-align: center;
-	background-color: #FF6600;
+	background-color: #11E9D9;
 	width: 100%;
+	font-size: 18px
 }
 
 .textblock {
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.5);
 	margin: 10px 500px 20px 500px;
 	width: 40%;
 	padding-top: 20px;
@@ -69,7 +70,7 @@ footer {
 }
 
 #facts {
-	color: #248F8F;
+	color: #11E9D9;
 	margin: 15px;
 	font-size: 16px;
 }
