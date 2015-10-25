@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
 body {
 
-	background: url(../images/pup2.jpg);
+	background: url(../images/pup4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: Arial;
@@ -14,28 +17,33 @@ nav {
 	font-size: 22px;
 	padding: 30px;
 	margin: 25px, 50px, 25px, 50px;
+	background-color: #ffffff;
+	vertical-align: middle;
 
 }
 
 
 header {
 	text-align: center;
+	vertical-align: middle;
 }
 
 a {
 	padding: 10px;
 	text-decoration: none;
-	color: #ffffff;
+	color: #EDA130;
 }
 
 p {
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
-	color: #434343;
+	color: #051a2f;
 }
 
 h1 {
+	font-family: 'Dosis', sans-serif;
 	font-size: 42px;
-	color: #11E9D9;
+	color: #2288E9;
 	padding-top: 20px;
 	padding-right: 45px;
 	padding-left: 45px;
@@ -43,9 +51,14 @@ h1 {
 	display: inline;
 }
 
+h2 {
+	font-size: 18px;
+	color: #051a2f;
+}
+
 h3 {
 	font-size: 24px;
-	color: #FF6600
+	color: #051a2f;
 }
 
 footer {
@@ -54,9 +67,11 @@ footer {
 	bottom: 0px;
 	height: 60px;
 	text-align: center;
-	background-color: #11E9D9;
+	background-color: #146ec4;
 	width: 100%;
-	font-size: 18px
+	font-size: 18px;
+	padding-top: 30px;
+
 }
 
 .textblock {
@@ -69,8 +84,21 @@ footer {
 	padding-left: 40px;
 }
 
+.clickme {
+	color: #FFFFFF;
+	background-color: #EDA130;
+	padding: 15px;
+	margin: 15px 270px 15px 270px;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 #facts {
-	color: #11E9D9;
+	font-family: 'Roboto Slab', serif;
+	color: #2288E9;
 	margin: 15px;
 	font-size: 16px;
+	line-height: 1.5em;
 }
