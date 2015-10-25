@@ -9,12 +9,13 @@ body {
 	font-family: Arial;
 	height: 95%;
 	position: relative;
-
 }
 
 
 nav {
-	font-size: 22px;
+	font-family: 'Dosis';
+	font-size: 30px;
+	text-transform: uppercase;
 	padding: 30px;
 	background-color: #ffffff;
 	vertical-align: middle;
@@ -38,7 +39,7 @@ p {
 }
 
 h1 {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 	font-size: 42px;
 	color: #2288E9;
 	padding-top: 20px;
@@ -49,11 +50,14 @@ h1 {
 }
 
 h2 {
+	font-family: 'Roboto Slab';
+	text-transform: uppercase;
 	font-size: 18px;
 	color: #051a2f;
 }
 
 h3 {
+	font-family: 'Roboto Slab';
 	font-size: 24px;
 	color: #051a2f;
 }
@@ -82,14 +86,15 @@ footer {
 }
 
 .clickme {
+	font-family: "Dosis";
 	color: #FFFFFF;
 	background-color: #EDA130;
 	padding: 15px;
 	margin: 15px 270px 15px 270px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 1.2px;
 }
 
 #facts {
