@@ -83,10 +83,11 @@ footer {
 
 .container {
 	border: 1px black solid;
+	padding: 20px;
 
 }
 
-.textblock 1{
+.textblock1 {
 	background-color: #e89c6c;
 	margin: 10px 500px 20px 500px;
 	width: 40%;
