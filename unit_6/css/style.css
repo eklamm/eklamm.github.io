@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+
+	background: url(../images/pup4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Arial;
+	height: 95%;
+	position: relative;
+}
+
+
+nav {
+	font-family: 'Dosis';
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 30px;
+	background-color: #ffffff;
+	vertical-align: middle;
+}
+
+header {
+	text-align: center;
+	vertical-align: middle;
+}
+
+a {
+	padding: 10px;
+	text-decoration: none;
+	color: #EDA130;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #051a2f;
+}
+
+h1 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 42px;
+	color: #2288E9;
+	padding-top: 20px;
+	padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 20px;
+	display: inline;
+}
+
+h2 {
+	font-family: 'Roboto Slab';
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #051a2f;
+}
+
+h3 {
+	font-family: 'Roboto Slab';
+	font-size: 24px;
+	color: #051a2f;
+}
+
+h4 {
+	font-family: 'Roboto Slab';
+	font-size: 20px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+
+#two_col {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 60px;
+	text-align: center;
+	background-color: #146ec4;
+	width: 100%;
+	font-size: 18px;
+	padding-top: 30px;
+
+}
+
+.textblock {
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 10px 500px 20px 500px;
+	width: 40%;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+
+
+#facts {
+	font-family: 'Roboto Slab', serif;
+	color: #2288E9;
+	margin: 15px;
+	font-size: 16px;
+	line-height: 1.5em;
+}
