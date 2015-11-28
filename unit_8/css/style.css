@@ -115,7 +115,7 @@ footer {
 
 .textblock {
 	background-color: rgba(255, 255, 255, 0.5);
-	margin: 3% 6% 3% 6%;
+	margin: auto;
 	padding: 3%;
 	width: 80%;
 }
@@ -167,23 +167,42 @@ h6 {
 	background: url(../images/pup4_sm.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 95%;
+	height: 100%;
 	position: relative;
+	}
+
+	h3 {
+		font-size: 2em;
+	}
+
+	h4 {
+		font-size: 1em;
+		line-height: .5em;
 	}
 
 	#two_col {
 	background-color: rgba(255, 255, 255, 0.5);
-	margin: auto;
-	padding: 4%;
+	margin: 1% auto;
+	padding: 3%;
+	width: 80%;
 	}
 
 	#left {
 	background-color: #EDA130;
-	padding: 1%;
+	padding: 2%;
+	margin-bottom: 1%;
+	width: 95%;
 	float: none;
-	width: 100%
 	}
+
 	#right {
+	background-color: #2288E9;
+	padding: 2%;
+	width: 95%;
+	float: none;
+	}
+
+	footer {
 	display: none;
 	}
 
@@ -208,7 +227,7 @@ h6 {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 590px) {
 	#mobile-header {
 		display: none;
 	}
