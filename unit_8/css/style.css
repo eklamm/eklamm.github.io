@@ -28,9 +28,13 @@ header {
 }
 
 a {
-	padding: 2%;
+	padding: 1%;
 	text-decoration: none;
 	color: #EDA130;
+}
+
+a:hover {
+	background-color: #f9dfb9;
 }
 
 p {
@@ -72,7 +76,7 @@ h4 {
 
 #two_col {
 	background-color: rgba(255, 255, 255, 0.5);
-	margin: 3% 6% 3% 6%;
+	margin: 1% auto;
 	padding: 3%;
 	width: 80%;
 }
@@ -135,31 +139,19 @@ h5 {
 	color: #ffffff;
 }
 
-h6 {
-	font-family: 'Roboto Slab', sans-serif;
-	font-size: 1.3em;
-	color: ##2288e9;
-}
+
+	h6 {
+		color: #EDA130;
+		font-size: 1em;
+		font-family: 'Dosis';
+	}
+
 
 @media only screen and (min-width: 801px) {
 	#mobile {
 		display: none;
 	}
-	.mobile-text {
-		display: none;
-	}
 
-	.mobile-dogs {
-		display: none;
-	}
-
-	.mobile-footer {
-		display: none;
-	}
-
-	.mobile-about {
-		display: none;
-	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -182,7 +174,7 @@ h6 {
 
 	#two_col {
 	background-color: rgba(255, 255, 255, 0.5);
-	margin: 1% auto;
+	margin: 0 auto;
 	padding: 3%;
 	width: 80%;
 	}
@@ -209,57 +201,66 @@ h6 {
 	#mobile {
 		display: none;
 	}
-	.mobile-text {
-		display: none;
-	}
-
-	.mobile-dogs {
-		display: none;
-	}
-
-	.mobile-footer {
-		display: none;
-	}
-
-	.mobile-about {
-		display: none;
-	}
+	
 }
 
+@media only screen and (max-width: 590px){
+	nav a {
+		font-size: 32px;
+		line-height: 28px;
+		display: block;
+	}
 
-@media only screen and (max-width: 590px) {
-	#mobile-header {
+	a:hover {
+		background-color: #8bc1f3;
+		color: #051a2f;
+	}
+
+	.textblock {
 		display: none;
 	}
-	.textblock {
-	display: none;
+
+	#two_col {
+	 background-color: #051a2f;
 	}
+
+	#left {
+	background-color: #EDA130;
+	padding: 12px;
+	margin-bottom: 4%;
+	width: 95%;
+	float: none;
+	text-align: center;
+	font-size: 2em;
+	}
+
+	#right {
+	background-color: #2288E9;
+	padding: 12px;
+	width: 95%;
+	float: none;
+	text-align: center;
+	font-size: 2em;
+	}
+
+	footer {
+		display: none;
+	}
+
 	body {
 		background: #051a2f; 
 	}
 
-	#two_col {
-	display: none;
-	}	
-	footer {
-		display: none;
-	}
-	.mobile-text {
-		background-color: #EDA130;
-		margin: auto;
-		padding: 1%;
-		text-align: center;
-		line-height: 4px;
-	}
-	.mobile-dogs {
-		background-color: #ffffff;
-		margin: auto;
-		padding: 2px 2px 20px 2px;
-		text-align: center;
-		line-height: 1%;
+	h4 {
+		font-family: "Dosis";
+		font-size: 35px;
+		line-height: 38px;
+		text-transform: uppercase;
+
 	}
 
-	.mobile-footer {
-
+	p {
+		font-size: 25px;
+		text-align: left;
 	}
 }
